@@ -1,5 +1,5 @@
 # signal
-Run signal desktop in an Ubuntu Docker container
+Run signal desktop in a Debian Docker container
 
 ## How To
 1. Build the container image.
