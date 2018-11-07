@@ -8,7 +8,7 @@ docker build -t signal .
 ```
 * Run the image.
 ```
-docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix signal
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME:/home/signal signal
 ```
 * Start signal-desktop
 ```
