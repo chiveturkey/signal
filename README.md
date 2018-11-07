@@ -1,5 +1,10 @@
 # signal
+
 Run Signal Desktop in a Debian Docker container
+
+## How It Works
+
+The `docker run` invocations below allow you to run GUI applications inside a Docker container by sharing your workstation's X11 socket with the container.
 
 ## How To (Basic)
 
@@ -60,3 +65,7 @@ docker run -it --rm \
   --mount type=volume,source=signal,destination=/home/signal/.config/Signal \
   signal
 ```
+
+## Reference
+
+* http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
