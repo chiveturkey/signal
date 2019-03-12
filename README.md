@@ -13,7 +13,7 @@ User your parent workstation's home directory for Signal Desktop's persistent da
 * Build the container image.
 
 ```
-docker build -t signal .
+docker build [--no-cache] -t signal .
 ```
 
 * Run the image.
@@ -33,7 +33,7 @@ Create a Docker volume for persistent data.  Your workstation's home directory w
 * Build the container image.
 
 ```
-docker build -t signal .
+docker build [--no-cache] -t signal .
 ```
 
 * Build a volume to house your persistent data.
